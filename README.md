@@ -1,6 +1,6 @@
 # matchbox
 This crate provides a macro `matchbox!`. This macro allows you to write a `match`-like statement to unpack a boxed trait using downcast.
-There is also syntax to allow destructuring of the extracted struct.
+There is also syntax to allow destructuring of the extracted object.
 
 ### example ###
 ```rust
