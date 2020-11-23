@@ -16,4 +16,8 @@ let string = matchbox!{my_box,
 `matchbox!` requires you to add an `else` branch to handle an unknown type.
 
 ### ownership ###
-`matchbox!` takes ownership of the box you give it.
+`matchbox!` takes ownership of the box you give it. 
+
+
+### repeat checking ###
+`matchbox!` doesn't check for repeated (i.e. unreachable) branches.
